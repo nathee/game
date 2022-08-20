@@ -1,0 +1,18 @@
+a {
+  font-family: 'Sarabun';
+}
+
+body {
+  font-family: 'Sarabun';
+  font-weight: 600;
+}
+
+.game01fieldlabel {
+  min-width: 200px;
+  /*width: inherit;*/
+}
+
+.game01picsize {
+  text-align: center;
+}
+
