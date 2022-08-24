@@ -100,7 +100,8 @@ $(document).ready(function () {
       "<a class='collapsed' data-bs-toggle='collapse' data-bs-target='#accordion-1 .item-8' aria-expanded='true' aria-controls='accordion-1 .item-8'>ถูกต้อง</a>";
     successMSG(msg);
   }
-  function EIGHT() {
+  function EIGHT(num01) {
+    var x = '<a href="game'+num01+'.html">เกมถัดไป</a>';
     $("#icon-i-8").removeClass("invisible").addClass("visible");
     // var msg = "<a>ยินดีด้วยผ่านทุกข้อ</a>";
     Swal.fire({
@@ -110,7 +111,7 @@ $(document).ready(function () {
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
-      showConfirmButton: false,
+      confirmButtonText: x,
     });
     // successMSG(msg);
   }
@@ -168,7 +169,7 @@ $(document).ready(function () {
 
   //-Sections8==================================
   $("#btn-0106").click(function () {
-    EIGHT();
+    EIGHT(02);
   });
 
   $("#btn-0107").click(function () {
@@ -256,7 +257,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0209").click(function () {
-    EIGHT();
+    EIGHT(03);
   });
 
   // -03+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -332,7 +333,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0309").click(function () {
-    EIGHT();
+    EIGHT(04);
   });
   // -04+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
@@ -399,7 +400,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0407").click(function () {
-    EIGHT();
+    EIGHT(05);
   });
 
   $("#btn-0408").click(function () {
@@ -479,7 +480,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0508").click(function () {
-    EIGHT();
+    EIGHT(06);
   });
 
   $("#btn-0509").click(function () {
@@ -546,7 +547,7 @@ $(document).ready(function () {
 
   //-Sections8==================================
   $("#btn-0606").click(function () {
-    EIGHT();
+    EIGHT(07);
   });
 
   $("#btn-0607").click(function () {
@@ -633,7 +634,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0709").click(function () {
-    EIGHT();
+    EIGHT(08);
   });
   // -08+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
@@ -700,7 +701,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0807").click(function () {
-    EIGHT();
+    EIGHT(09);
   });
 
   $("#btn-0808").click(function () {
@@ -771,7 +772,7 @@ $(document).ready(function () {
 
   //-Sections8==================================
   $("#btn-0906").click(function () {
-    EIGHT();
+    EIGHT(10);
   });
 
   $("#btn-0907").click(function () {
@@ -854,7 +855,7 @@ $(document).ready(function () {
   });
 
   $("#btn-1008").click(function () {
-    EIGHT();
+    EIGHT(01);
   });
 
   $("#btn-1009").click(function () {
