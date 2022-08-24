@@ -170,7 +170,7 @@ $(document).ready(function () {
 
   //-Sections8==================================
   $("#btn-0106").click(function () {
-    EIGHT(02);
+    EIGHT("02");
   });
 
   $("#btn-0107").click(function () {
@@ -258,7 +258,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0209").click(function () {
-    EIGHT(03);
+    EIGHT("03");
   });
 
   // -03+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -334,7 +334,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0309").click(function () {
-    EIGHT(04);
+    EIGHT("04");
   });
   // -04+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
@@ -401,7 +401,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0407").click(function () {
-    EIGHT(05);
+    EIGHT("05");
   });
 
   $("#btn-0408").click(function () {
@@ -481,7 +481,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0508").click(function () {
-    EIGHT(06);
+    EIGHT("06");
   });
 
   $("#btn-0509").click(function () {
@@ -548,7 +548,7 @@ $(document).ready(function () {
 
   //-Sections8==================================
   $("#btn-0606").click(function () {
-    EIGHT(07);
+    EIGHT("07");
   });
 
   $("#btn-0607").click(function () {
@@ -635,7 +635,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0709").click(function () {
-    EIGHT(08);
+    EIGHT("08");
   });
   // -08+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
@@ -702,7 +702,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0807").click(function () {
-    EIGHT(09);
+    EIGHT("09");
   });
 
   $("#btn-0808").click(function () {
@@ -856,7 +856,7 @@ $(document).ready(function () {
   });
 
   $("#btn-1008").click(function () {
-    EIGHT(01);
+    EIGHT("01");
   });
 
   $("#btn-1009").click(function () {
