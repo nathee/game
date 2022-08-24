@@ -102,6 +102,7 @@ $(document).ready(function () {
   }
   function EIGHT(num01) {
     var x = '<a href="game'+num01+'.html">เกมถัดไป</a>';
+    console.log(x);
     $("#icon-i-8").removeClass("invisible").addClass("visible");
     // var msg = "<a>ยินดีด้วยผ่านทุกข้อ</a>";
     Swal.fire({
