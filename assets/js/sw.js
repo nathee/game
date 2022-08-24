@@ -1,11 +1,11 @@
 $(document).ready(function () {
-  // $("#AccordionItem-2").addClass("invisible");
-  // $("#AccordionItem-3").addClass("invisible");
-  // $("#AccordionItem-4").addClass("invisible");
-  // $("#AccordionItem-5").addClass("invisible");
-  // $("#AccordionItem-6").addClass("invisible");
-  // $("#AccordionItem-7").addClass("invisible");
-  // $("#AccordionItem-8").addClass("invisible");
+  $("#AccordionItem-2").addClass("invisible");
+  $("#AccordionItem-3").addClass("invisible");
+  $("#AccordionItem-4").addClass("invisible");
+  $("#AccordionItem-5").addClass("invisible");
+  $("#AccordionItem-6").addClass("invisible");
+  $("#AccordionItem-7").addClass("invisible");
+  $("#AccordionItem-8").addClass("invisible");
   $("#icon-i-1").addClass("invisible");
   $("#icon-i-2").addClass("invisible");
   $("#icon-i-3").addClass("invisible");
