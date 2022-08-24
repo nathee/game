@@ -488,27 +488,27 @@ $(document).ready(function () {
   // -06+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0601").click(function () {
-    ONE("tx-0601", 14, "tx-0602", 15);
+    ONE("tx-0601", -42, "tx-0602", -40);
   });
 
   //-Sections2==================================
   $("#btn-0602").click(function () {
-    errorMSG();
+    TWO();
   });
 
   $("#btn-0603").click(function () {
-    TWO();
+    errorMSG();
   });
 
   //-Sections3==================================
   $("#btn-0604").click(function () {
     // 1+2-3*4/
-    THREE("operator-0601", 2);
+    THREE("operator-0601", 1);
   });
 
   //-Sections4==================================
   $("#btn-0605").click(function () {
-    FOUR("tx-0603", 4);
+    FOUR("tx-0603", -14);
   });
 
   //-Sections5==================================
@@ -536,17 +536,17 @@ $(document).ready(function () {
   //-Sections7==================================
   $("#formCheck-0605").click(function () {
     // ทวน
-    errorMSG();
+    SEVEN();
   });
 
   $("#formCheck-0606").click(function () {
     // ตาม
-    SEVEN();
+    errorMSG();
   });
 
   //-Sections8==================================
   $("#btn-0606").click(function () {
-    errorMSG();
+    EIGHT();
   });
 
   $("#btn-0607").click(function () {
@@ -558,12 +558,12 @@ $(document).ready(function () {
   });
 
   $("#btn-0609").click(function () {
-    EIGHT();
+    errorMSG();
   });
   // -07+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0701").click(function () {
-    ONE("tx-0701", 14, "tx-0702", 15);
+    ONE("tx-0701", 100, "tx-0702", 102);
   });
 
   //-Sections2==================================
@@ -583,7 +583,7 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-0705").click(function () {
-    FOUR("tx-0703", 4);
+    FOUR("tx-0703", 34);
   });
 
   //-Sections5==================================
@@ -638,7 +638,7 @@ $(document).ready(function () {
   // -08+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0801").click(function () {
-    ONE("tx-0801", 14, "tx-0802", 15);
+    ONE("tx-0801", -22, "tx-0802", -20);
   });
 
   //-Sections2==================================
@@ -658,29 +658,29 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-0805").click(function () {
-    FOUR("tx-0803", 4);
+    FOUR("tx-0803", -5);
   });
 
   //-Sections5==================================
   $("#formCheck-0801").click(function () {
     // คู่
-    FIVE();
+    errorMSG();
   });
 
   $("#formCheck-0802").click(function () {
     // คี่
-    errorMSG();
+    FIVE();
   });
 
   //-Sections6==================================
   $("#formCheck-0803").click(function () {
     // ซ้าย
-    errorMSG();
+    SIX();
   });
 
   $("#formCheck-0804").click(function () {
     // ขวา
-    SIX();
+    errorMSG();
   });
 
   //-Sections7==================================
@@ -700,7 +700,7 @@ $(document).ready(function () {
   });
 
   $("#btn-0807").click(function () {
-    errorMSG();
+    EIGHT();
   });
 
   $("#btn-0808").click(function () {
@@ -708,32 +708,32 @@ $(document).ready(function () {
   });
 
   $("#btn-0809").click(function () {
-    EIGHT();
+    errorMSG();
   });
   // -09+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0901").click(function () {
-    ONE("tx-0901", 14, "tx-0902", 15);
+    ONE("tx-0901", 32, "tx-0902", 34);
   });
 
   //-Sections2==================================
   $("#btn-0902").click(function () {
-    errorMSG();
+    TWO();
   });
 
   $("#btn-0903").click(function () {
-    TWO();
+    errorMSG();
   });
 
   //-Sections3==================================
   $("#btn-0904").click(function () {
     // 1+2-3*4/
-    THREE("operator-0901", 2);
+    THREE("operator-0901", 1);
   });
 
   //-Sections4==================================
   $("#btn-0905").click(function () {
-    FOUR("tx-0903", 4);
+    FOUR("tx-0903", 8);
   });
 
   //-Sections5==================================
@@ -761,17 +761,17 @@ $(document).ready(function () {
   //-Sections7==================================
   $("#formCheck-0905").click(function () {
     // ทวน
-    errorMSG();
+    SEVEN();
   });
 
   $("#formCheck-0906").click(function () {
     // ตาม
-    SEVEN();
+    errorMSG();
   });
 
   //-Sections8==================================
   $("#btn-0906").click(function () {
-    errorMSG();
+    EIGHT();
   });
 
   $("#btn-0907").click(function () {
@@ -783,65 +783,65 @@ $(document).ready(function () {
   });
 
   $("#btn-0909").click(function () {
-    EIGHT();
+    errorMSG();
   });
   // -10+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-1001").click(function () {
-    ONE("tx-1001", 14, "tx-1002", 15);
+    ONE("tx-1001", -18, "tx-1002", -16);
   });
 
   //-Sections2==================================
   $("#btn-1002").click(function () {
-    errorMSG();
+    TWO();
   });
 
   $("#btn-1003").click(function () {
-    TWO();
+    errorMSG();
   });
 
   //-Sections3==================================
   $("#btn-1004").click(function () {
     // 1+2-3*4/
-    THREE("operator-1001", 2);
+    THREE("operator-1001", 1);
   });
 
   //-Sections4==================================
   $("#btn-1005").click(function () {
-    FOUR("tx-1003", 4);
+    FOUR("tx-1003", -3);
   });
 
   //-Sections5==================================
   $("#formCheck-1001").click(function () {
     // คู่
-    FIVE();
+    errorMSG();
   });
 
   $("#formCheck-1002").click(function () {
     // คี่
-    errorMSG();
+    FIVE();
   });
 
   //-Sections6==================================
   $("#formCheck-1003").click(function () {
     // ซ้าย
-    errorMSG();
+    SIX();
   });
 
   $("#formCheck-1004").click(function () {
     // ขวา
-    SIX();
+    errorMSG();
   });
 
   //-Sections7==================================
   $("#formCheck-1005").click(function () {
     // ทวน
-    errorMSG();
+    SEVEN();
   });
 
   $("#formCheck-1006").click(function () {
     // ตาม
-    SEVEN();
+    errorMSG();
   });
 
   //-Sections8==================================
@@ -854,10 +854,10 @@ $(document).ready(function () {
   });
 
   $("#btn-1008").click(function () {
-    errorMSG();
+    EIGHT();
   });
 
   $("#btn-1009").click(function () {
-    EIGHT();
+    errorMSG();
   });
 });
