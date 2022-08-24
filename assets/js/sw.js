@@ -104,14 +104,14 @@ $(document).ready(function () {
     $("#icon-i-8").removeClass("invisible").addClass("visible");
     // var msg = "<a>ยินดีด้วยผ่านทุกข้อ</a>";
     Swal.fire({
-      title: 'Sweet!',
-      text: 'Congratulations.',
-      imageUrl: 'https://condaluna.com/assets/stickers/congrats.gif',
+      title: "Sweet!",
+      text: "Congratulations.",
+      imageUrl: "https://condaluna.com/assets/stickers/congrats.gif",
       imageWidth: 400,
       imageHeight: 200,
-      imageAlt: 'Custom image',
-      showConfirmButton: false
-    })
+      imageAlt: "Custom image",
+      showConfirmButton: false,
+    });
     // successMSG(msg);
   }
   // 01+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -182,7 +182,7 @@ $(document).ready(function () {
   $("#btn-0109").click(function () {
     errorMSG();
   });
-  
+
   // 02+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0201").click(function () {
@@ -259,7 +259,7 @@ $(document).ready(function () {
     EIGHT();
   });
 
-    // -03+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  // -03+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0301").click(function () {
     ONE("tx-0301", 14, "tx-0302", 16);
@@ -282,7 +282,7 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-0305").click(function () {
-    FOUR("tx-0303",4);
+    FOUR("tx-0303", 4);
   });
 
   //-Sections5==================================
@@ -333,37 +333,37 @@ $(document).ready(function () {
 
   $("#btn-0309").click(function () {
     EIGHT();
-  }); 
+  });
   // -04+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0401").click(function () {
-    ONE("tx-0401", -68, "tx-0402", -66);
+    ONE("tx-0401", 28, "tx-0402", 30);
   });
 
   //-Sections2==================================
   $("#btn-0402").click(function () {
-    TWO();
+    errorMSG();
   });
 
   $("#btn-0403").click(function () {
-    errorMSG();
+    TWO();
   });
 
   //-Sections3==================================
   $("#btn-0404").click(function () {
     // 1+2-3*4/
-    THREE("operator-0401", 1);
+    THREE("operator-0401", 2);
   });
 
   //-Sections4==================================
   $("#btn-0405").click(function () {
-    FOUR("tx-0403",-17);
+    FOUR("tx-0403", 5);
   });
 
   //-Sections5==================================
   $("#formCheck-0401").click(function () {
     // คู่
-    errorMSG();    
+    errorMSG();
   });
 
   $("#formCheck-0402").click(function () {
@@ -385,12 +385,12 @@ $(document).ready(function () {
   //-Sections7==================================
   $("#formCheck-0405").click(function () {
     // ทวน
-    SEVEN();
+    errorMSG();
   });
 
   $("#formCheck-0406").click(function () {
     // ตาม
-    errorMSG();
+    SEVEN();
   });
 
   //-Sections8==================================
@@ -399,74 +399,74 @@ $(document).ready(function () {
   });
 
   $("#btn-0407").click(function () {
-    errorMSG();
+    EIGHT();
   });
 
   $("#btn-0408").click(function () {
-    EIGHT();
+    errorMSG();
   });
 
   $("#btn-0409").click(function () {
     errorMSG();
   });
-  
-// -05+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  // -05+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
   $("#btn-0501").click(function () {
-    ONE("tx-0501", 14, "tx-0502", 15);
+    ONE("tx-0501", -68, "tx-0502", -66);
   });
 
   //-Sections2==================================
   $("#btn-0502").click(function () {
-    errorMSG();
+    TWO();
   });
 
   $("#btn-0503").click(function () {
-    TWO();
+    errorMSG();
   });
 
   //-Sections3==================================
   $("#btn-0504").click(function () {
     // 1+2-3*4/
-    THREE("operator-0501", 2);
+    THREE("operator-0501", 1);
   });
 
   //-Sections4==================================
   $("#btn-0505").click(function () {
-    FOUR("tx-0503",4);
+    FOUR("tx-0503", -17);
   });
 
   //-Sections5==================================
   $("#formCheck-0501").click(function () {
     // คู่
-    FIVE();
+    errorMSG();
   });
 
   $("#formCheck-0502").click(function () {
     // คี่
-    errorMSG();
+    FIVE();
   });
 
   //-Sections6==================================
   $("#formCheck-0503").click(function () {
     // ซ้าย
-    errorMSG();
+    SIX();
   });
 
   $("#formCheck-0504").click(function () {
     // ขวา
-    SIX();
+    errorMSG();
   });
 
   //-Sections7==================================
   $("#formCheck-0505").click(function () {
     // ทวน
-    errorMSG();
+    SEVEN();
   });
 
   $("#formCheck-0506").click(function () {
     // ตาม
-    SEVEN();
+    errorMSG();
   });
 
   //-Sections8==================================
@@ -479,11 +479,11 @@ $(document).ready(function () {
   });
 
   $("#btn-0508").click(function () {
-    errorMSG();
+    EIGHT();
   });
 
   $("#btn-0509").click(function () {
-    EIGHT();
+    errorMSG();
   });
   // -06+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //-Sections1==================================
@@ -508,7 +508,7 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-0605").click(function () {
-    FOUR("tx-0603",4);
+    FOUR("tx-0603", 4);
   });
 
   //-Sections5==================================
@@ -583,7 +583,7 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-0705").click(function () {
-    FOUR("tx-0703",4);
+    FOUR("tx-0703", 4);
   });
 
   //-Sections5==================================
@@ -658,7 +658,7 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-0805").click(function () {
-    FOUR("tx-0803",4);
+    FOUR("tx-0803", 4);
   });
 
   //-Sections5==================================
@@ -733,7 +733,7 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-0905").click(function () {
-    FOUR("tx-0903",4);
+    FOUR("tx-0903", 4);
   });
 
   //-Sections5==================================
@@ -808,7 +808,7 @@ $(document).ready(function () {
 
   //-Sections4==================================
   $("#btn-1005").click(function () {
-    FOUR("tx-1003",4);
+    FOUR("tx-1003", 4);
   });
 
   //-Sections5==================================
@@ -860,5 +860,4 @@ $(document).ready(function () {
   $("#btn-1009").click(function () {
     EIGHT();
   });
-
 });
