@@ -101,7 +101,7 @@ $(document).ready(function () {
     successMSG(msg);
   }
   function EIGHT(num01) {
-    var x = '<a href="'+num01+'">เกมถัดไป</a>';
+    var x = '<a href="'+num01+'">แบบฝึกถัดไป</a>';
     $("#icon-i-8").removeClass("invisible").addClass("visible");
     // var msg = "<a>ยินดีด้วยผ่านทุกข้อ</a>";
     Swal.fire({
